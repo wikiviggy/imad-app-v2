@@ -2,16 +2,203 @@
 <html>
     <head>
         <link href="/ui/style.css" rel="stylesheet" />
+        <style>
+            body
+            {
+                background-image: url(http://enjoycss.com/webshots/hB_1.png);
+            }
+        </style>
     </head>
     <body>
+          <a class="button-link"href="https://www.youtube.com/watch?v=S2UvarU35X0&feature=youtu.be" title="Download movie">click to know me more</a>
+          <hr/>       
+        <h3>
+                 <marquee>
+                 Welcome to my profile page ! I have 5 resources here -- they are 2 french articles , an adminer database query,a counter and a login page to access a third article ;) ENJOY!!
+                 </marquee>        
+        </h3>
+        <div>
+            <div>
+            RESOURCES
+            <hr/>
+            </div>
+            <a class="amar" href="/article-one">article-1 </a>
+        
+        
+            <a class="akbar" href="/article-two">article-2</a>
+        
+        
+            <a class="anthony" href="/test-db">database</a>
+            
+            <a class="tom" href="/counter">counter</a>
+            <a class="dhoni" href="/mymap">Find me ?</a>
+            <a class="maths" href="/calculator">an accessory ?</a>
+            <a class="timer" href="/stop">another accessory ?</a> 
+            <a class="jerry" href="#login_area">login</a>
+        </div>
+       <div class="koodigrah">
         <div class="center">
-            <img src="/ui/madi.png" class="img-medium"/>
+            <img id='wiki' src="https://scontent.fmaa1-1.fna.fbcdn.net/v/t1.0-9/14100317_1067258196697777_4398343038920901479_n.jpg?oh=0f8fe8ce2ba3132228548164f1f48303&oe=58CBB4DA" class="img-medium"/>
+        <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-mention-button twitter-mention-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="http://platform.twitter.com/widgets/tweet_button.f7908d4abf5ce27173c69bdbb93aedb6.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=http%3A%2F%2Fwikiviggy.imad.hasura-app.io%2F&amp;screen_name=vigneshprabhak9&amp;size=l&amp;time=1480084351174&amp;type=mention" style="position: static; visibility: visible; width: 182px; height: 28px;" data-screen-name="vigneshprabhak9"></iframe>    
+        <marquee scrollamount="10"
+         direction="left"
+        behavior="scroll">
+         yup! Its me going all around ...
+         <img src="https://scontent.fmaa1-1.fna.fbcdn.net/v/t1.0-9/14100317_1067258196697777_4398343038920901479_n.jpg?oh=0f8fe8ce2ba3132228548164f1f48303&oe=58CBB4DA" />
+         </marquee>
         </div>
+        <hr/>
         <br>
-        <div class="center text-big bold">
-            Hi! I am your webapp.
+        <h3>Personal</h3>
+        <div>
+                    hi! my name is vignesh prabhakar
         </div>
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
+        <div>
+                    date of birth :02/02/1998 
+        </div>
+        <hr/>
+        <h3>Professional</h3>
+        <div>
+                     iam a second year btech student pursuing CSE from SRM university
+        </div>
+        <div> 
+                     I can speak 4 languages namely english,hindi,tamil and french
+        </div>
+        <hr/>
+        <div>
+               I have introduced the same content on my profile page in french in the other paths of my webapp
+        </div>
+        <hr/>
+     <div id="HCB_comment_box">
+     <a href="http://www.htmlcommentbox.com">HTML Comment Box</a> is loading comments...</div>
+      <link rel="stylesheet" type="text/css" href="http://www.htmlcommentbox.com/static/skins/default/skin.css" />
+      <script type="text/javascript" language="javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){
+      hcb_user={ 
+      };
+      } (function(){s=document.createElement("script");s.setAttribute("type","text/javascript");s.setAttribute("src", "http://www.htmlcommentbox.com/jread?page="+escape((window.hcb_user && hcb_user.PAGE)||(""+window.location)).replace("+","%2B")+"&opts=470&num=10");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/
+      </script>
+        <h3>
+        <p align="center">
+            <p>&copy; 2016 vignesh prabhakar
+            </p>
+            <p>&reg;  all rights reserved 
+            </p>    
+        </p>
+        </h3>
+        <div class="footer">
+        </div>
+       </div>
+       <div id="login_area" class="center">
+                <center>Loading login status...</center>
+            </div>
+            <script>
+                function loadLoginForm () {
+    var loginHtml = `
+        <h3>Login/Register here</h3>
+        username:<input type="text" id="username" placeholder="username" />
+        <br>
+        password: <input type="password" placeholder="password" id="password" />
+        <br>
+        <br/><br/>
+        <input type="submit" id="login_btn" value="Login" />
+        <input type="submit" id="register_btn" value="Register" />
+        `;
+    document.getElementById('login_area').innerHTML = loginHtml;
+    
+    // Submit username/password to login
+    var submit = document.getElementById('login_btn');
+    submit.onclick = function () {
+        // Create a request object
+        var request = new XMLHttpRequest();
+        
+        // Capture the response and store it in a variable
+        request.onreadystatechange = function () {
+          if (request.readyState === XMLHttpRequest.DONE) {
+              // Take some action
+              if (request.status === 200) {
+                  submit.value = 'Sucess!';
+              } else if (request.status === 403) {
+                  submit.value = 'Invalid credentials. Try again?';
+              } else if (request.status === 500) {
+                  alert('Something went wrong on the server');
+                  submit.value = 'Login';
+              } else {
+                  alert('Something went wrong on the server');
+                  submit.value = 'Login';
+              }
+              loadLogin();
+          }  
+          // Not done yet
+        };
+        
+        // Make the request
+        var username = document.getElementById('username').value;
+        var password = document.getElementById('password').value;
+        console.log(username);
+        console.log(password);
+        request.open('POST', '/login', true);
+        request.setRequestHeader('Content-Type', 'application/json');
+        request.send(JSON.stringify({username: username, password: password}));  
+        submit.value = 'Logging in...';
+        
+    };
+    
+    var register = document.getElementById('register_btn');
+    register.onclick = function () {
+        // Create a request object
+        var request = new XMLHttpRequest();
+        
+        // Capture the response and store it in a variable
+        request.onreadystatechange = function () {
+          if (request.readyState === XMLHttpRequest.DONE) {
+              // Take some action
+              if (request.status === 200) {
+                  alert('User created successfully');
+                  register.value = 'Registered!';
+              } else {
+                  alert('Could not register the user');
+                  register.value = 'Register';
+              }
+          }
+        };
+        
+        // Make the request
+        var username = document.getElementById('username').value;
+        var password = document.getElementById('password').value;
+        console.log(username);
+        console.log(password);
+        request.open('POST', '/create-user', true);
+        request.setRequestHeader('Content-Type', 'application/json');
+        request.send(JSON.stringify({username: username, password: password}));  
+        register.value = 'Registering...';
+    
+    };
+}
+function loadLoggedInUser (username) {
+    var loginArea = document.getElementById('login_area');
+    loginArea.innerHTML = `
+        <h3> Hi <i>${username}</i></h3>
+        <a href="/logout">Logout</a>
+    `;
+}
+function loadLogin () {
+    // Check if the user is already logged in
+    var request = new XMLHttpRequest();
+    request.onreadystatechange = function () {
+        if (request.readyState === XMLHttpRequest.DONE) {
+            if (request.status === 200) {
+                loadLoggedInUser(this.responseText);
+            } else {
+                loadLoginForm();
+            }
+        }
+    };
+    
+    request.open('GET', '/check-login', true);
+    request.send(null);
+}
+// The first thing to do is to check if the user is logged in!
+loadLogin();
+            </script>
     </body>
 </html>
