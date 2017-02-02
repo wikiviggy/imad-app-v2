@@ -1,7 +1,8 @@
 body {
     font-family: sans-serif;
-    background-color: lightgrey;
+    background-color: #F3FAB6;
     margin-top: 75px;
+   
 }
 
 .center {
@@ -18,5 +19,144 @@ body {
 
 .img-medium {
     height: 200px;
+}
+ .koodigrah {
+    max-width: 800px;
+    margin: 0 auto;
+    color: black;
+    font-family: sans-serif;
+     padding-left: 80px;
+     padding-top: 60px;
+     padding-bottom: 20px;
+       }
+.button-link {
+     
+    padding: 10px 15px;
+    background:#FF1493 ;
+    color: #FFF;    
+    border-radius: 4px;
+}
+.button-link:hover, .button-link:focus {
+    background: #FA8072;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+.wiki {
+      padding: 10px 15px;
+    background:#00FF00 ;
+    color: #FFF;    
+    border-radius: 4px;        
+}
+.wiki:hover, .wiki:focus {
+    background: #FFFF00;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+.amar {
+     
+    padding: 10px 15px;
+    background:#0000FF ;
+    color: #FFF;    
+    border-radius: 4px;
+}
+.amar:hover, .amar:focus {
+    background: #48D1CC;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+.akbar {
+     
+    padding: 10px 15px;
+    background:#FF4500 ;
+    color: #FFF;    
+    border-radius: 4px;
+}
+.akbar:hover, .akbar:focus {
+    background: #FF6347;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+.anthony {
+     
+    padding: 10px 15px;
+    background:#8B4513 ;
+    color: #FFF;    
+    border-radius: 4px;
+}
+.anthony:hover, .anthony:focus {
+    background: #CD853F;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+.jerry {
+     
+    padding: 10px 15px;
+    background:#808000 ;
+    color: #FFF;    
+    border-radius: 4px;
+}
+.jerry:hover, .jerry:focus {
+    background:#00FF00 ;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+.evil {
+      padding: 10px 15px;
+    background:#00FF00 ;
+    color: #FFF;    
+    border-radius: 4px;        
+}
+.evil:hover, .evil:focus {
+    background: #FFFF00;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+.tom {
+     
+    padding: 10px 15px;
+    background:#808080 ;
+    color: #FFF;    
+    border-radius: 4px;
+}
+.tom:hover, .tom:focus {
+    background:#c0c0c0 ;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+.dhoni {
+     
+    padding: 10px 15px;
+    background:#F4D03F ;
+    color: #FFF;    
+    border-radius: 4px;
+}
+.dhoni:hover, .dhoni:focus {
+    background:#F9E79F ;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+.maths{
+     
+    padding: 10px 15px;
+    background:#34495E ;
+    color: #FFF;    
+    border-radius: 4px;
+}
+.maths:hover, .maths:focus {
+    background:#A9CCE3;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+.timer{
+     
+    padding: 10px 15px;
+    background:#800000 ;
+    color: #FFF;    
+    border-radius: 4px;
+}
+.timer:hover, .timer:focus {
+    background:#FF0000;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
 }
 
