@@ -31,9 +31,9 @@ var articles= {
             this is content of my first article. bonjour ! enchante . comment cava ?
         </p>
         <p>
-            je mapelle vignesh prabhakar. j ai 18 ans. j habite a' chennai au india . 
+            je mapelle vignesh prabhakar. j ai 18 ans. j habite a chennai au india . 
         </p>
-        <p>j etudie ingenerie d' informatique en SRM universite'. j aime chocolats . 
+        <p>j etudie ingenerie d informatique en SRM universite. j aime chocolats . 
         </p>
         <p>a bientot . the nightmares are REAL !!! BALOR CLUB WORRLDWIDE !
         </p>`
@@ -46,9 +46,9 @@ var articles= {
             this is content of my second article. bonjour ! enchante . comment cava ?
         </p>
         <p>
-            je mapelle vignesh prabhakar. j ai 18 ans. j habite a' chennai au india . 
+            je mapelle vignesh prabhakar. j ai 18 ans. j habite a chennai au india . 
         </p>
-        <p>j etudie ingenerie d' informatique en SRM universite'. j aime chocolats .  
+        <p>j etudie ingenerie d informatique en SRM universite. j aime chocolats .  
         </p>
         <p>a bientot . the nightmares are REAL !!! BALOR CLUB WORRLDWIDE !
         </p>`
@@ -61,9 +61,9 @@ var articles= {
             this is content of my third article. bonjour ! enchante . comment cava ?
         </p>
         <p>
-            je mapelle vignesh prabhakar. j ai 18 ans. j habite a' chennai au india . 
+            je mapelle vignesh prabhakar. j ai 18 ans. j habite a chennai au india . 
         </p>
-        <p>j etudie ingenerie d' informatique en SRM universite'. j aime chocolats .  
+        <p>j etudie ingenerie d informatique en SRM universite. j aime chocolats .  
         </p>
         <p>a bientot . the nightmares are REAL !!! BALOR CLUB WORRLDWIDE !
         </p>
