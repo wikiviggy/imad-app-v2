@@ -12,7 +12,7 @@ var config= {
     database:'wikiviggy',
     host:'db.imad.hasura-app.io',
     port:'5432',
-    password:process.env.DB_PASSWORD
+    password:'db-wikiviggy-11704',
 };
 
 var app = express();
